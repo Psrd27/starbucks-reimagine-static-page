@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.starbucks {
+  color: white;
+  display: inline-block;
+  margin-top: 0;
+  position: absolute;
+  align-items: center;
+}
+
+.top_container {
+  background-color: #eac784;
+  background-blend-mode: multiply;
+  margin-top: 0;
+  height: 600px;
+}
+
+.inner_container {
+  align-items: center;
+  margin-top: 0;
+  height: auto;
+}
+.p1{
+  font-weight: bolder;
+  font-style: oblique;
+  top:165px;
+  width: 600px;
+  left: 30px;
+  position: absolute;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.p2{
+  font-weight: bolder;
+  font-style: oblique;
+  top:205px;
+  width: 600px;
+  right: 60px;
+  display: inline-block;
+  position: absolute;
+  font-size: 1.2rem;
+
+}
+.lines{
+  border-style: dashed;
+  height: 10px;
+  border-bottom:0;
+}
+.green{
+  color: 	green;
+}
+.details{
+  font-size: 1.25rem;
+  height: 700px;
+  margin: 0;
+}
+.brief{
+  font-family: Merriweather,sans-serif;
+  font-size: 3.5rem;
+  position: absolute;
+  left: 500px;
+  top:300px;
+  color: white;
+}
+.socials{
+  position: relative;
+  margin: auto;
+  bottom: 300px;
+  left: 890px;
+  transform: translateY(-50%);
+  justify-content: center;
+}
+.socials li{
+  list-style: none;
+}
+
+.socials a{
+  display: inline-block;
+  margin:5px 0;
+  transform: scale(0.6);
+
+}
+.drinks{
+  text-align: left;
+  height: 300px;
+  width: 900px;
+  margin:50px auto;
+}
+.drink1{
+  text-align: left;
+  border-radius: 100%;
+  height: 300px;
+  width:300px;
+  float: left;
+  margin-right: 20px;
+
+}
+.drink2{
+  height: 300px;
+  width:300px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 20px;
+}
+.drink3{
+  height: 300px;
+  width:300px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.drinkss{
+  margin-top:70px;
+}
+.h03{
+  text-align: right;
+}
+.endbox{
+  height: 50px;
+  background-color:#1f3a33;
+}
+#logo {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  bottom:460px;
+  margin: auto;
+  display: inline-block;
+}
+
+#coffeebeans {
+  height: 600px;
+  width: 2000px;
+  opacity: 20%;
+  display: inline-block;
+  margin: auto;
+}
